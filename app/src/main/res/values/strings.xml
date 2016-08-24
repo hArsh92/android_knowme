@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">KnowMe</string>
+    <string name="full_name">Full Name</string>
+    <string name="email">Email</string>
+    <string name="signup">Sign Up</string>
+    <string name="enter_email_error">Enter your Email Id dickhead!!!</string>
+    <string name="enter_valid_email_error">Dickhead enter valid email</string>
+    <string name="enter_name_error">A**hole, who will give your name</string>
+    <string name="select_gender_error">Dude ab gender bhi puchna pdhega..!!!</string>
+    <string-array name="gender_list">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+    </string-array>
+</resources>
