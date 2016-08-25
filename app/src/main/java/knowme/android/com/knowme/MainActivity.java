@@ -78,6 +78,9 @@ public class MainActivity extends AppCompatActivity{
         userUriBuilder.appendQueryParameter("user_email", mEmail.getText().toString())
                 .appendQueryParameter("user_name", mFullName.getText().toString())
                 .appendQueryParameter("user_gender", mGender.getSelectedItem().toString())
+                .appendQueryParameter("user_image", "")
+                .appendQueryParameter("user_signed_in_type", "device")
+                .appendQueryParameter("user_signin_id", "-1")
                 .build();
 
         return userUriBuilder.toString();
